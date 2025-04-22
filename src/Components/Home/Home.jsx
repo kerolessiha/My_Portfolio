@@ -53,7 +53,7 @@ export default function Home() {
                 {/* Download CV Button */}
                 <a
                   href="/public/Keroles-Siha-Saad-CV.pdf"
-                  download="Keroles-Siha-Saad.pdf"
+                  download="Keroles-Siha-Saad-CV.pdf"
                   className="px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold transition-transform duration-300 hover:scale-105 hover:shadow-lg"
                 >
                   Download CV
