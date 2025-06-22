@@ -4,7 +4,10 @@ import CRUD_system from "../../assets/CRUD system.png";
 import Yummy from "../../assets/Yumy App.png";
 import DevFolio from "../../assets/DevFolio.png";
 import Weather_App from "../../assets/Weather App.png";
+import PowerGym from "../../assets/PowerGym.png";
+import Eventsy from "../../assets/Eventsy.png";
 import Carditem from "../Carditem/Carditem";
+
 import { Helmet } from "react-helmet";
 
 export default function Projects() {
@@ -18,31 +21,72 @@ export default function Projects() {
           title="FreshCart "
           image={FreshCart}
           link="https://fresh-cart-lake-mu.vercel.app/"
+          tools={[
+            "🚀 React ,Vite",
+            "🎭 FontAwesome ",
+            " 🎨 Tailwind CSS",
+            "Formik ",
+            "🧠 React Helmet",
+          ]}
         />
         <Carditem
-          title="Mealify"
-          image={Mealify}
-          link="https://kerolessiha.github.io/Mealify/"
+          title="PowerGym"
+          image={PowerGym}
+          link="https://power-gym-five.vercel.app/"
+          tools={[
+            "🚀 React | Vite | 🧠 React Helmet | AOS",
+            " 🎨 Tailwind CSS |⚡ React Fast Marquee |Framer Motion",
+          ]}
         />
+        <Carditem
+          title="Eventsy"
+          image={Eventsy}
+          link="https://atc-01151326229.vercel.app/Home"
+          tools={[
+            "React",
+            "Tailwind CSS",
+            "Vite",
+            "React Router",
+            "local storage",
+          ]}
+        />
+
         <Carditem
           title="CRUD_system"
           image={CRUD_system}
           link="https://kerolessiha.github.io/CRUD_operations_system/"
+          tools={["HTML", " CSS", "JavaScript", "Bootstrap", "FontAwesome"]}
         />
         <Carditem
           title="Yummy"
           image={Yummy}
           link="https://kerolessiha.github.io/Yummy/"
+          tools={[
+            "HTML",
+            " CSS",
+            "JavaScript",
+            "Bootstrap",
+            "FontAwesome",
+            "API",
+          ]}
         />
         <Carditem
           title="Weather_App"
           image={Weather_App}
           link="https://kerolessiha.github.io/Weather_App/"
+          tools={["HTML", " CSS", "JavaScript", "Bootstrap", "FontAwesome"]}
         />
         <Carditem
           title="DevFolio"
           image={DevFolio}
           link="https://kerolessiha.github.io/DevFolio/"
+          tools={["HTML ", " CSS", "Bootstrap"]}
+        />
+        <Carditem
+          title="Mealify"
+          image={Mealify}
+          link="https://kerolessiha.github.io/Mealify/"
+          tools={["HTML", " CSS", "Dark Mode"]}
         />
       </div>
     </>
