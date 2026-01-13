@@ -39,14 +39,13 @@ export default function Navbar() {
               <li className="md:px-4 md:py-2 text-xl">
                 <NavLink to="Home">Home</NavLink>
               </li>
-              <li className="md:px-4 md:py-2 hover:text-indigo-400 text-xl">
-                <NavLink to="About">About</NavLink>
-              </li>
+
               <li className="md:px-4 md:py-2 hover:text-indigo-400 text-xl">
                 <NavLink to="Projects">Projects</NavLink>
               </li>
+
               <li className="md:px-4 md:py-2 hover:text-indigo-400 text-xl">
-                <NavLink to="Skills">Skills</NavLink>
+                <NavLink to="Experience">Experience</NavLink>
               </li>
             </ul>
           </div>

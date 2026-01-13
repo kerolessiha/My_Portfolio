@@ -1,12 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import About from "./Components/About/About";
 import Layout from "./Components/Layout/Layout";
-import Home from "./Components/Home/Home";
+import Home from "./pages/Home/Home";
+import Experience from "./pages/Experience/Experience";
 
-import Projects from "./Components/Projects/Projects";
-import Skills from "./Components/Skills/Skills";
-import Notfound from "./Components/Notfound/Notfound";
+import Projects from "./pages/Projects/Projects";
+import Notfound from "./pages/Notfound/Notfound";
 
 function App() {
   let x = createBrowserRouter([
@@ -16,10 +15,9 @@ function App() {
       children: [
         { index: true, element: <Home /> },
         { path: "Home", element: <Home /> },
-        { path: "About", element: <About /> },
 
         { path: "Projects", element: <Projects /> },
-        { path: "Skills", element: <Skills /> },
+        { path: "Experience", element: <Experience /> },
         { path: "*", element: <Notfound /> },
       ],
     },

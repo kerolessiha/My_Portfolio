@@ -6,7 +6,7 @@ import DevFolio from "../../assets/DevFolio.png";
 import Weather_App from "../../assets/Weather App.png";
 import PowerGym from "../../assets/PowerGym.png";
 import Eventsy from "../../assets/Eventsy.png";
-import Carditem from "../Carditem/Carditem";
+import Carditem from "../../Components/Carditem/Carditem";
 
 import { Helmet } from "react-helmet";
 
