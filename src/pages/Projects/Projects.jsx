@@ -7,6 +7,7 @@ import Weather_App from "../../assets/Weather App.png";
 import PowerGym from "../../assets/PowerGym.png";
 import Eventsy from "../../assets/Eventsy.png";
 import Carditem from "../../Components/Carditem/Carditem";
+import Najjar from "../../assets/Najjar.png";
 
 import { Helmet } from "react-helmet";
 
@@ -18,13 +19,25 @@ export default function Projects() {
       </Helmet>
       <div className="flex flex-wrap justify-center gap-4 p-4 mb-16">
         <Carditem
+          title="Najjar"
+          image={Najjar}
+          link="https://najjar-north-riyadh.vercel.app/"
+          tools={[
+            "🚀 React ,Vite",
+            "✨ AOS  ",
+            "🎨 Tailwind CSS",
+            "🖼️ Lucide React Icons",
+            "🧠 React Helmet",
+          ]}
+        />
+        <Carditem
           title="FreshCart "
           image={FreshCart}
           link="https://fresh-cart-lake-mu.vercel.app/"
           tools={[
             "🚀 React ,Vite",
             "🎭 FontAwesome ",
-            " 🎨 Tailwind CSS",
+            "🎨 Tailwind CSS",
             "Formik ",
             "🧠 React Helmet",
           ]}
@@ -43,11 +56,10 @@ export default function Projects() {
           image={Eventsy}
           link="https://atc-01151326229.vercel.app/Home"
           tools={[
-            "React",
-            "Tailwind CSS",
-            "Vite",
-            "React Router",
-            "local storage",
+            "🚀 React | Vite",
+            "🎨 Tailwind CSS",
+            "🔄 React Router",
+            "🗄️ local storage",
           ]}
         />
 
@@ -62,31 +74,38 @@ export default function Projects() {
           image={Yummy}
           link="https://kerolessiha.github.io/Yummy/"
           tools={[
-            "HTML",
-            " CSS",
-            "JavaScript",
-            "Bootstrap",
-            "FontAwesome",
-            "API",
+            "🌐 HTML",
+            "🎨 CSS",
+            "⚙️ JavaScript",
+            "🧱 Bootstrap",
+            "⭐ FontAwesome",
+            "🔌 API",
           ]}
         />
         <Carditem
           title="Weather_App"
           image={Weather_App}
           link="https://kerolessiha.github.io/Weather_App/"
-          tools={["HTML", " CSS", "JavaScript", "Bootstrap", "FontAwesome"]}
+          tools={[
+            "🌐 HTML",
+            "🎨 CSS",
+            "⚙️ JavaScript",
+            "🧱 Bootstrap",
+            "⭐ FontAwesome",
+            "🔌 API",
+          ]}
         />
         <Carditem
           title="DevFolio"
           image={DevFolio}
           link="https://kerolessiha.github.io/DevFolio/"
-          tools={["HTML ", " CSS", "Bootstrap"]}
+          tools={["🌐 HTML", "🎨 CSS", "🧱 Bootstrap"]}
         />
         <Carditem
           title="Mealify"
           image={Mealify}
           link="https://kerolessiha.github.io/Mealify/"
-          tools={["HTML", " CSS", "Dark Mode"]}
+          tools={["🌐 HTML", "🎨 CSS", "🌑 Dark Mode"]}
         />
       </div>
     </>
