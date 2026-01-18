@@ -67,7 +67,13 @@ export default function Projects() {
           title="CRUD_system"
           image={CRUD_system}
           link="https://kerolessiha.github.io/CRUD_operations_system/"
-          tools={["HTML", " CSS", "JavaScript", "Bootstrap", "FontAwesome"]}
+          tools={[
+            "🌐 HTML",
+            "🎨 CSS",
+            "⚙️ JavaScript",
+            "🧱 Bootstrap",
+            "⭐ FontAwesome",
+          ]}
         />
         <Carditem
           title="Yummy"

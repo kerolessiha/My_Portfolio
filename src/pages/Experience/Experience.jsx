@@ -1,6 +1,13 @@
+import { Helmet } from "react-helmet";
+import ExperienceSection from "./ExperienceSection";
 
 export default function Experience() {
   return (
-    <div>Experience</div>
-  )
+    <>
+      <Helmet>
+        <title>Experience</title>
+      </Helmet>
+      <ExperienceSection />
+    </>
+  );
 }

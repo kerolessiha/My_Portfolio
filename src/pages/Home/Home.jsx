@@ -3,20 +3,6 @@ import Heroimage from "../../assets/Portfolio-photo.png";
 import Marquee from "react-fast-marquee";
 
 const skills = [
-  // HtmlImage,
-  // CssImage,
-  // BootstrabImage,
-  // JavaImage,
-  // JqueryImage,
-  // GitImage,
-  // TailwindImage,
-  // ReactImage,
-  // TypescriptImage,
-  // ReduxImage,
-  // SassImage,
-  // NextImage,
-  // MUIImage,
-
   "devicon-html5-plain colored",
   "devicon-css3-plain colored",
   "devicon-bootstrap-plain colored",
@@ -109,7 +95,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center mt-52 mb-20 px-4 ">
+        <div className="flex items-center justify-center mt-40 mb-20 px-4 ">
           <div className="w-full  rounded-[10px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px]">
             <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
               About Me <i className="fa-solid fa-person"></i>
@@ -129,7 +115,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="w-full bg-gray-100 py-30 mb-14">
+        <div className="w-full bg-gray-100 py-30 mb-24">
           {/* First Marquee - Left to Right */}
           <Marquee
             speed={50}

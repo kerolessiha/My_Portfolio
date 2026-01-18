@@ -3,7 +3,6 @@ import "./App.css";
 import Layout from "./Components/Layout/Layout";
 import Home from "./pages/Home/Home";
 import Experience from "./pages/Experience/Experience";
-
 import Projects from "./pages/Projects/Projects";
 import Notfound from "./pages/Notfound/Notfound";
 
@@ -17,6 +16,7 @@ function App() {
         { path: "Home", element: <Home /> },
 
         { path: "Projects", element: <Projects /> },
+
         { path: "Experience", element: <Experience /> },
         { path: "*", element: <Notfound /> },
       ],

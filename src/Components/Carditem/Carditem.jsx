@@ -2,7 +2,7 @@
 // eslint-disable-next-line react/prop-types
 const Carditem = ({ title, image, link, tools }) => {
   return (
-    <div className="h-[20em] w-[20em] border-2 border-[rgba(117, 58, 136, 0.3)] rounded-[1.5em] bg-gradient-to-br from-[rgba(117, 58, 136, 1)] to-[rgba(117, 58, 136, 0.01)] text-[#7f5af0] font-nunito p-[1em] flex flex-col justify-between items-center gap-[0.75em] backdrop-blur-[12px] transition-transform transform hover:scale-105 duration-300 shadow-lg">
+    <div className="h-[22em] w-[20em] border-2 border-[rgba(117, 58, 136, 0.3)] rounded-[1.5em] bg-gradient-to-br from-[rgba(117, 58, 136, 1)] to-[rgba(117, 58, 136, 0.01)] text-[#7f5af0] font-nunito p-[1em] flex flex-col justify-between items-center gap-[0.75em] backdrop-blur-[12px] transition-transform transform hover:scale-105 duration-300 shadow-lg">
       <div className="flex flex-col items-center">
         <h1 className="text-[1.5em] font-semibold text-center mb-2 relative">
           {title}
