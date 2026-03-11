@@ -11,17 +11,17 @@ export const experiences = [
     highlights: [
       "Managed and optimized WordPress/WooCommerce website (content updates, translations, pricing tables, UX + checkout improvements).",
       "Conducted market & competitor research; collected and structured product/pricing data across 5+ competitors to support pricing decisions.",
-      "Designed and implemented n8n workflows integrating web forms, Google Drive, and AI APIs to automate marketing operations.",
+      "Designed and implemented n8n workflows integrating web forms, and AI APIs to automate marketing operations.",
       "Supported delivery and coordination of multiple ongoing initiatives across web, automation, and digital advertising.",
     ],
     tech: [
       "WordPress",
       "WooCommerce",
       "n8n",
-      "Google Drive",
       "Excel",
       "AI APIs",
       "Veo 3",
+      "Image/video generation",
     ],
     links: {
       company: "https://markedsmateriell.no",

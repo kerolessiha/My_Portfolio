@@ -8,6 +8,7 @@ import PowerGym from "../../assets/PowerGym.png";
 import Eventsy from "../../assets/Eventsy.png";
 import Carditem from "../../Components/Carditem/Carditem";
 import Najjar from "../../assets/Najjar.png";
+import DuePro from "../../assets/DuePro.png";
 
 import { Helmet } from "react-helmet";
 
@@ -18,6 +19,16 @@ export default function Projects() {
         <title>Projects</title>
       </Helmet>
       <div className="flex flex-wrap justify-center gap-4 p-4 mb-16">
+        <Carditem
+          title="DuoLeadPro"
+          image={DuePro}
+          link="https://duoleadpro-website-redesign.vercel.app/"
+          tools={[
+            "⚛️ React ▲ Next.js🎨 Tailwind CSS 🛡 Zod",
+            " 📋 React Hook Form📊 Recharts🧩 shadcn/ui",
+            "🔁 Embla Carousel 🎬Framer Motion",
+          ]}
+        />
         <Carditem
           title="Najjar"
           image={Najjar}
