@@ -1,35 +1,6 @@
 export const experiences = [
   {
     id: 1,
-    role: "Digital Solutions Consultant (Web, Automation & AI)",
-    company: "markedsmateriell.no",
-    type: "Remote",
-    location: "Norway , Remote",
-    period: "08/2025 — Present",
-    summary:
-      "Contributing to an AI-driven marketing ecosystem that unifies physical and digital marketing through automation, scalable content, and performance-focused web improvements — with a clear focus on attracting new customers and generating leads through content-driven marketing.",
-    highlights: [
-      "Managed and optimized WordPress/WooCommerce website (content updates, translations, pricing tables, UX + checkout improvements).",
-      "Conducted market & competitor research; collected and structured product/pricing data across 5+ competitors to support pricing decisions.",
-      "Designed and implemented n8n workflows integrating web forms, and AI APIs to automate marketing operations.",
-      "Supported delivery and coordination of multiple ongoing initiatives across web, automation, and digital advertising.",
-    ],
-    tech: [
-      "WordPress",
-      "WooCommerce",
-      "n8n",
-      "Excel",
-      "AI APIs",
-      "Veo 3",
-      "Image/video generation",
-    ],
-    links: {
-      company: "https://markedsmateriell.no",
-    },
-  },
-
-  {
-    id: 2,
     role: "Front-End Developer",
     company: "Freelancing",
     type: "Freelance",
@@ -63,6 +34,35 @@ export const experiences = [
     links: {
       certificate:
         "https://drive.google.com/file/d/1M8UQlac-uEYfHh0Yxcxo0H8iwNxrjEN-/view?usp=sharing",
+    },
+  },
+  {
+    id: 2,
+    role: "Digital Solutions Consultant (Web, Automation & AI)",
+    company: "markedsmateriell.no",
+    type: "Remote",
+    location: "Norway , Remote",
+    period: "09/2025 — 03/2026",
+    summary:
+      "Contributing to an AI-driven marketing ecosystem that unifies physical and digital marketing through automation, scalable content, and performance-focused web improvements — with a clear focus on attracting new customers and generating leads through content-driven marketing.",
+    highlights: [
+      "Managed and optimized 2 WordPress/​WooCommerce websites, including content, translations, pricing tables, UX, checkout, and server issues.",
+      "Conducted market and competitor research on 5+ competitors, supporting pricing and positioning decisions.",
+      "Researched, tested, and evaluated 100+ AI tools for image/​video generation, automation (emails, scheduling), content management, and data scraping; presented actionable recommendations and executed solutions.",
+      "Designed and orchestrated n8n automation workflows integrating web forms and AI APIs to streamline marketing operations.",
+    ],
+    tech: [
+      "WordPress",
+      "WooCommerce",
+      "n8n",
+      "Excel",
+      "AI APIs",
+      "Veo 3",
+      "Image/video generation",
+      "Market Research ",
+    ],
+    links: {
+      company: "https://markedsmateriell.no",
     },
   },
 ];
