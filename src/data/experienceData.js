@@ -5,7 +5,7 @@ export const experiences = [
     company: "Kodland",
     type: "Remote",
     location: "London , Remote",
-    period: "03/2026 — Present",
+    period: "03/2026 — 04/2026",
     summary:
       " Worked as a Trial Class Manager (TCM) at Kodland, delivering personalized online trial sessions for children and parents via Zoom. Successfully converted trial classes into paid enrollments, achieving consistent monthly sales performance. Managed weekly trial sessions along with parent communication and follow-ups to maximize student enrollment and conversion rates.",
     highlights: [
